@@ -8,6 +8,20 @@ export default class SDK {
   token;
 
   /**
+   * Sdk auth
+   *
+   * @returns {string} auth header
+   * */
+  get auth() {
+    let token = this.token;
+    // @ts-ignore
+    if (typeof token === "function") token = token();
+    if (token) return `Bearer ${token}`;
+
+    return "";
+  }
+
+  /**
    * Init store sdk
    *
    * @param {Object} opt
