@@ -1,6 +1,6 @@
 {
   "name": "@36node-fcp/ecs-robot-guangxin-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SDK for ecs-robot-guangxin.",
   "repository": {
     "url": "36node/ecs-robot-guangxin-sdk-js",
