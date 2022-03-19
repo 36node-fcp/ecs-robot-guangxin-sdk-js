@@ -44,4 +44,4 @@ jobs:
           url: ${{ env.FEISHU_URL }}
           method: "POST"
           customHeaders: '{"Content-Type":"application/json; charset=utf-8"}'
-          data: '{"msg_type":"text","content":"{\"text\":\"ecs-api-sdk ${{ steps.get_version.outputs.VERSION }}版本 发布成功\"}"}'
+          data: '{"msg_type":"text","content":"{\"text\":\"ecs-robot-guangxin-sdk ${{ steps.get_version.outputs.VERSION }}版本 发布成功\"}"}'
